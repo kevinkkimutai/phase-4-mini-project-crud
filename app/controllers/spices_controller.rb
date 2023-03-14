@@ -6,11 +6,6 @@ def index
     render json: spices
   end
 
-  # GET /spices/:id
-  def show
-    spice = Spice.find_by(id: params[:id])
-    render json: spice
-  end
 
   # POST /spices
   def create
